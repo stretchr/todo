@@ -25,7 +25,9 @@ By default, todo is not enabled. This is to prevent accidental termination of th
 
 When disabled, the function it calls is empty. There is still a bit of overhead in passing the arguments by value, however.
 
-In order to enable the todo package, set `TODO_ENABLED=1` as an environment variable. As a result of this requirement, the tests also depend on this environment variable being set. Use `TODO_ENABLED=1 go test` to test. Simlarly, to run the benchmarks, use `TODO_ENABLED=1 go test -bench=.`.
+In order to enable the todo package, set `TODO_ENABLED=1` as an environment variable. We recommend setting it in `.bashrc` or `.bash_profile` or similar so it will always be set.
+
+As a result of this requirement, the tests also depend on this environment variable being set. Use `TODO_ENABLED=1 go test` to test. Simlarly, to run the benchmarks, use `TODO_ENABLED=1 go test -bench=.`.
 
 ## Behavior
 
