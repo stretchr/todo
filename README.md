@@ -1,7 +1,7 @@
 todo
 ====
 
-todo is a simple package that helps you keep your TODOs under control. Oftentimes developers write a TODO and forget about it. The todo package helps you remember those TODOs by allowing you to set an expiration date with the message. If that expiration date is hit, the program will exit and print the message, along with the location of the TODO.
+todo is a simple package that helps you remember the DO in TODO. Oftentimes developers write a TODO and forget about it. The todo package helps you remember those TODOs by allowing you to set an expiration date with the message. If that expiration date is hit, the program will exit and print the message, along with the location of the TODO.
 
 [![wercker status](https://app.wercker.com/status/5c46f31b4c8b2ba071426379ef692894/m "wercker status")](https://app.wercker.com/project/bykey/5c46f31b4c8b2ba071426379ef692894)
 
